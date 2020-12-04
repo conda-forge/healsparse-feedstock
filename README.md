@@ -5,9 +5,13 @@ Home: https://github.com/lsstdesc/healsparse
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/healsparse-feedstock/blob/master/LICENSE.txt)
 
 Summary: Sparse healpix maps and geometry library
+
+Development: https://github.com/lsstdesc/healsparse
+
+Documentation: https://healsparse.readthedocs.io
 
 HealSparse is a sparse implementation of HEALPix in Python.
 HealSparse is a pure Python library that sits on top of
