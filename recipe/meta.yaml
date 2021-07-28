@@ -20,6 +20,8 @@ requirements:
   host:
     - pip
     - python >=3.5
+    - setuptools_scm
+    - setuptools_scm_git_archive
   run:
     - astropy
     - healpy
