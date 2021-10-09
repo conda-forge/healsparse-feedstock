@@ -1,6 +1,6 @@
 {% set name = "healsparse" %}
-{% set version = "1.3.1" %}
-{% set sha256 = "2a13c10b3979fb76efea473c9277b734d72752491f0d10fb7b231f1687bcad30" %}
+{% set version = "1.4.0" %}
+{% set sha256 = "5ef6987f7466690610ed17385032d00174204fe076aac21179369c8fe197f1c8" %}
 
 
 package:
