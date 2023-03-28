@@ -1,11 +1,11 @@
-About healsparse
-================
+About healsparse-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/healsparse-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/lsstdesc/healsparse
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/healsparse-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sparse healpix maps and geometry library
 
