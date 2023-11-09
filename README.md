@@ -159,6 +159,3 @@ Feedstock Maintainers
 
 * [@erykoff](https://github.com/erykoff/)
 
-
-<!-- dummy commit to enable rerendering -->
-
