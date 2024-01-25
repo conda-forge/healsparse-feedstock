@@ -1,6 +1,6 @@
 {% set name = "healsparse" %}
-{% set version = "1.8.1" %}
-{% set sha256 = "5419398f74429f67fd71497202c4d926a318f47a8a11013c3c5bd55a128b5487" %}
+{% set version = "1.9.0" %}
+{% set sha256 = "e83c76973da467342bd228a80907ed702fdbe3567d320c210935e7b2bff10617" %}
 
 
 package:
@@ -24,7 +24,7 @@ requirements:
     - setuptools_scm_git_archive
   run:
     - astropy
-    - hpgeom >=0.8.0
+    - hpgeom >=1.2.0
     - numpy
     - python >=3.7
 
