@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,7 +23,7 @@ requirements:
     - setuptools_scm
     - setuptools_scm_git_archive
   run:
-    - astropy
+    - astropy-base
     - hpgeom >=1.2.0
     - numpy
     - python >=3.7
