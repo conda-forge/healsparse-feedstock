@@ -1,6 +1,6 @@
 {% set name = "healsparse" %}
-{% set version = "1.10.1" %}
-{% set sha256 = "85d07c35c26fd1d921023454f3f98dc8ae211fff8ba310c05184b7f3bd8f60b9" %}
+{% set version = "1.11.1" %}
+{% set sha256 = "e52c3054c906cca39c32be31fb97398c1a2cfa172d22a958816e962e602ae127" %}
 
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
