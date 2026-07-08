@@ -15,24 +15,30 @@ build:
   number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
+  skip:
+    - is_abi3 and not is_python_min
 
 requirements:
   host:
     - pip
-    - python {{ python_min }}
+    - python
     - setuptools_scm
     - setuptools_scm_git_archive
     - setuptools
+    - python-abi3
   run:
     - astropy-base
     - hpgeom >=1.2.0
     - numpy
     - rustfits
-    - python >={{ python_min }}
+    - python
 
 test:
   imports:
     - healsparse
+  python_version:
+    - ${{ python_min }}.*
+    - "*"
   commands:
     - pip check
   requires:
