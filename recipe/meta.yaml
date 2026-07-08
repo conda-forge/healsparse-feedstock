@@ -29,7 +29,7 @@ requirements:
     - hpgeom >=1.2.0
     - numpy
     - rustfits
-    - python >= {{ python_min }}
+    - python >={{ python_min }}
 
 test:
   imports:
