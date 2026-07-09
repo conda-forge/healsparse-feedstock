@@ -1,7 +1,6 @@
 {% set name = "healsparse" %}
 {% set version = "1.13.0" %}
 {% set sha256 = "c21e4eb075c686bd306bdc1b40e039134c4ca60ccfa4e7e73845c107a5b16544" %}
-{% set python_min = "3.11" %}
 
 
 package:
@@ -13,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -28,7 +27,6 @@ requirements:
     - astropy-base
     - hpgeom >=1.2.0
     - numpy
-    - rustfits
     - python >={{ python_min }}
 
 test:
