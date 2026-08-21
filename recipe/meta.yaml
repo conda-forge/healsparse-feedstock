@@ -1,6 +1,6 @@
 {% set name = "healsparse" %}
-{% set version = "1.13.0" %}
-{% set sha256 = "c21e4eb075c686bd306bdc1b40e039134c4ca60ccfa4e7e73845c107a5b16544" %}
+{% set version = "1.14.0" %}
+{% set sha256 = "60e94c8a12ca3af80cfbba7b7b11c30be1c6b5585132dd9f8ea93c7935887198" %}
 {% set python_min = "3.11" %}
 
 
@@ -9,11 +9,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/healsparse-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/healsparse-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
